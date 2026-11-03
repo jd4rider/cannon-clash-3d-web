@@ -1,0 +1,33 @@
+{
+  "id": "cannon-clash-3d",
+  "name": "Cannon Clash 3D",
+  "tagline": "Line up the shot. Break the block line.",
+  "description": "A 3D cannon puzzle built in Unity and rendered straight from the WebGL player. Each level hands you a fixed number of shots, a target and a stack of blocks standing between you and it: pick the angle, pick the power, and fire. Real 3D physics does the rest, so the same shot can topple one tower and bounce uselessly off another. Stars reward finishing cleanly, worlds unlock as you go, and a daily challenge picks a fresh board each day. Nothing to install - the payload streams in behind a progress bar and the whole game runs in the browser.",
+  "categories": ["Puzzle", "Arcade", "Physics", "Casual"],
+  "runtime": "Unity WebGL",
+  "version": "0.1.0",
+  "updated": "2026-11-02",
+  "status": "live",
+  "featured": false,
+  "playUrl": "https://jd4rider.github.io/cannon-clash-3d-web/play/",
+  "siteUrl": "https://jd4rider.github.io/cannon-clash-3d-web/",
+  "repoUrl": "https://github.com/jd4rider/cannon-clash-3d-web",
+  "releasesUrl": "https://github.com/jd4rider/cannon-clash-3d-web/releases",
+  "downloads": [],
+  "cover": { "from": "#7b5bff", "to": "#14122b", "emoji": "💥" },
+  "highlights": [
+    "Native Unity WebGL build with real 3D physics, not a 2D stand-in",
+    "A campaign of block-breaking levels with a shot budget and star ratings",
+    "Daily challenge and world progression tracked in your browser",
+    "Play area scaled to fit any screen without stretching the view",
+    "Mouse and touch input, no install and no download"
+  ],
+  "howToPlay": [
+    "Open the game and wait for the Unity progress bar - the first load streams about 55 MB",
+    "Aim the cannon, then choose the power for the shot",
+    "Clear the target without running out of shots",
+    "Use the fullscreen button in the footer for the largest view"
+  ],
+  "levels": "Unity WebGL build · campaign worlds + daily challenge",
+  "saveKey": ""
+}
