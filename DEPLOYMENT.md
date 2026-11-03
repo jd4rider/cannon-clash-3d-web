@@ -52,7 +52,7 @@ curl -s -r 0-3 https://jd4rider.github.io/cannon-clash-3d-web/play/Build/WebGL.w
 # expect 0061736d (\0asm) - a Brotli or gzip payload would start with something else
 ```
 
-A 200 is not proof the game runs: the payload is 55 MB, so also open the URL in
+A 200 is not proof the game runs: the payload is 81 MB, so also open the URL in
 a browser and wait for the progress bar to disappear. The build logs
 `[LittleJoy] Running on local fallback (SDK not present).` to the console on
 every boot, which is expected — see the platform note in the README.
@@ -76,7 +76,7 @@ portal site itself.
 
 ## Payload notes
 
-- 55.4 MB total, 45.5 MB of it `WebGL.wasm`. GitHub Pages allows 1 GB per site
+- 81 MB total, 68.6 MB of it `WebGL.wasm`. GitHub Pages allows 1 GB per site
   and 100 MB per file, so the build fits, but the first load is slow on mobile.
 - Pages gzips the wasm in transit; the payload is stored uncompressed because a
   Brotli export would need `Content-Encoding: br`, which Pages cannot send.
