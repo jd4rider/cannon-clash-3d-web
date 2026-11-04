@@ -76,7 +76,7 @@ portal site itself.
 
 ## Payload notes
 
-- 76 MB total, 64.9 MB of it `WebGL.wasm`. GitHub Pages allows 1 GB per site
+- 76 MB total, 65.0 MB of it `WebGL.wasm`. GitHub Pages allows 1 GB per site
   and 100 MB per file, so the build fits, but the first load is slow on mobile.
 - Pages gzips the wasm in transit; the payload is stored uncompressed because a
   Brotli export would need `Content-Encoding: br`, which Pages cannot send.
